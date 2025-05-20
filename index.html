@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>recomendaciones saludables</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Recomendaciones Saludables</h1>
+            <p class="subtitle">Responde unas preguntas y obtén consejos para mejorar tus hábitos.</p>
+        </header>
+
+        <main class="main-content">
+            <section class="question-section">
+                <div class="question">
+                    <label class="question-label">¿Cuántas horas duermes al día?</label>
+                    <div class="options">
+                        <label><input type="radio" name="sleep" value="less"> Menos de 6</label>
+                        <label><input type="radio" name="sleep" value="normal"> 6-8</label>
+                        <label><input type="radio" name="sleep" value="more"> Más de 8</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <label class="question-label">¿Tomas al menos 2L de agua por día?</label>
+                    <div class="options">
+                        <label><input type="radio" name="water" value="yes"> Sí</label>
+                        <label><input type="radio" name="water" value="no"> No</label>
+                    </div>
+                </div>
+            </section>
+
+            <button class="recommendation-button" onclick="mostrarRecomendacion()">Ver recomendación</button>
+
+            <div id="resultado" class="result-message"></div>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2025 Recomendaciones Saludables</p>
+        </footer>
+    </div>
+<script src="./script.js"></script>
+</body>
+</html>
