@@ -8,7 +8,7 @@ Una aplicación web sencilla que recomienda hábitos saludables como beber agua,
 - Tiene una interfaz clara, amigable y responsiva.
 - Funciona directamente en el navegador, sin necesidad de servidor.
 
-- <img src="https://github.com/jtovarmorales93/salud-wed/blob/master/assets/imagen1.jpg?raw=true" width="300px"/>  <img src="https://github.com/jtovarmorales93/salud-wed/blob/master/assets/imagen2.jpg?raw=true" height="314px"/>
+ <img src="https://github.com/jtovarmorales93/salud-wed/blob/master/assets/imagen1.jpg?raw=true" width="300px"/>  <img src="https://github.com/jtovarmorales93/salud-wed/blob/master/assets/imagen2.jpg?raw=true" height="314px"/>
 
 
 ## 👨‍💻 Tecnologías usadas
